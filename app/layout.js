@@ -1,0 +1,14 @@
+import "./globals.css";
+
+export const metadata = {
+  title: "Ecology Consulting — Onboarding Workbook",
+  description: "New employee onboarding workbook and Learning & Development modules for Ecology Consulting.",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en-AU">
+      <body>{children}</body>
+    </html>
+  );
+}
