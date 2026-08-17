@@ -1,0 +1,94 @@
+# Project TODO
+
+- [x] Review shared Ecology Consulting documents, corporate style references, and available BOSTA material.
+- [x] Define role-based access boundaries for Staff and Admin users.
+- [x] Create the database schema for documents, requests, projects, assignments, timesheets, training, quizzes, announcements, acknowledgements, and generated BOSTA memos.
+- [x] Implement secure server procedures for each staff and administrator workflow.
+- [x] Build the branded application shell, responsive navigation, and staff dashboard.
+- [x] Build WHS document library with corporate SWMS presentation and staff download access.
+- [x] Build trackable Leave Request and Training/Equipment Request digital forms.
+- [x] Build the BOSTA Stage 1 memo guided generator and report-template library.
+- [x] Build staff project tracker with project allocation, progress updates, and activity notes.
+- [x] Build an internal staff self-tracking timesheet view and an exact external link to https://staff.ecologyconsulting.au/.
+- [x] Build training modules, learning resources, quizzes, and per-staff completion tracking.
+- [x] Build announcements, noticeboard posts, and staff acknowledgement tracking.
+- [x] Build the Admin Dashboard for content management, requests, allocations, activity, and oversight.
+- [x] Add dedicated administrator oversight for project status, internal time activity, uploaded documents, and staff activity.
+- [x] Complete missing BOSTA guided inputs and expose a clear report-template library in the report workflow.
+- [x] Support uploading and attaching training resources directly from the training administration workflow.
+- [x] Add dedicated administrator oversight for project status, internal time activity, uploaded documents, and staff activity.
+- [x] Complete missing BOSTA guided inputs and expose a clear report-template library in the report workflow.
+- [x] Support uploading and attaching training resources directly from the training administration workflow.
+- [x] Add unit tests for validation, permissions, and core portal workflows.
+- [x] Verify the application in desktop and mobile layouts, refine usability, and save a release checkpoint.
+- [x] Verify key staff and administrator pages at a mobile viewport and address any responsive issues found.
+- [x] Separate the Staff Portal and Admin Portal entry routes, navigation, and dashboard experiences while preserving role-based access.
+- [x] Verify separate Staff and Admin portal routes, role-aware redirects, and isolated navigation after the implementation update.
+- [x] Reconfirm the administrator redirect from the Staff route and preserve explicit verification evidence before release.
+- [x] Review supplied SWMS, WHS risk-management, and psychosocial-risk process documents for drafting requirements.
+- [x] Add secure document-draft storage, status tracking, and access controls for WHS drafts.
+- [x] Build guided risk assessment, pre-mobilisation, SWMS, and psychosocial risk assessment drafting workflows.
+- [x] Add an AI drafting assistant with document-type-specific prompts, safety guardrails, and mandatory professional review notices.
+- [x] Validate the new WHS drafting workspace and AI assistance workflow with automated tests and responsive review.
+- [x] Add mocked end-to-end server tests for WHS AI draft generation, persistence, review submission, and administrator state actioning.
+- [x] Add mocked end-to-end server tests for WHS AI draft generation, persistence, review submission, and administrator state actioning.
+- [x] Complete the WHS Draft Studio route and guided interface after the partial user-interface update.
+- [x] Expose a WHS draft review queue in the Admin Portal with controlled draft-status actioning.
+- [x] Redesign the Staff landing page with clickable, colour-coded workspace cards, Ecology Consulting logo treatment, and a personalised signed-in welcome.
+- [x] Confirm the Staff landing-page card redesign compiles and renders correctly on desktop and mobile.
+- [x] Review the supplied Project Health Report and WHS Legal and Compliance Register workbooks for fields, status conventions, and dashboard indicators.
+- [x] Extend project creation with client contacts, SharePoint project link, activity breakdown, activity budgets, and planned start/end dates.
+- [x] Build staff allocation detail with Senior task brief, guidance, examples, steps, resources, activity-level hours versus budget, and task-state updates.
+- [x] Add staff assistance, pause, completion, WHS review, drafting, and amendment notifications for assigning Seniors and WHS Managers.
+- [x] Build an administrator project-health dashboard with budget, schedule, allocation, and activity status indicators plus a Gantt view.
+- [x] Build a WHS Manager compliance dashboard with colour-coded registers, monitoring summaries, charts, and staff action requests.
+- [x] Test and verify the enhanced project, notification, budget, and compliance workflows across Staff and Admin portals.
+- [x] Expand project setup into a multi-activity editor with examples, numbered steps, hyperlinks, resources, activity-specific budgets, and dates.
+- [x] Add WHS Manager controls for compliance-register entries and staff review, draft, complete, and amend action requests.
+- [x] Enhance project health with a schedule timeline and richer dashboard visualisations, and add compliance charts.
+- [x] Add automated and browser-based validation for project status, notification, budget, and compliance action flows.
+- [x] Add date-based project health timeline and compliance-status chart visualisations to the Admin dashboard.
+- [x] Add automated workflow tests for activity-status transitions, Senior/WHS notifications, budget-versus-hours calculation, and compliance action requests.
+- [x] Verify the project and compliance workflow test file is present and included in the executed test suite.
+- [ ] Verify a non-empty Staff/Admin project and compliance workflow end-to-end without retaining fictional operational records.
+- [x] Render date-labelled project activity timelines from planned activity start and end dates in the Admin project-health dashboard.
+- [x] Render date-labelled project activity timelines from planned activity start and end dates in the Admin project-health dashboard.
+- [ ] Verify the Admin timeline and compliance chart together with populated project activity dates before release.
+- [x] Replace large Staff landing-page bubbles with compact colour-coded section headings that open focused dashboards.
+- [x] Add clear dashboard sub-headings and back navigation to keep each workflow focused on one task at a time.
+- [x] Add automatic local draft saving with restore indicators to editable project and WHS forms.
+- [ ] Validate focused navigation, back controls, and draft auto-save behaviour on desktop and mobile.
+- [x] Add visible autosave and restore indicators to WHS Draft Studio and project editing workflows.
+- [ ] Verify WHS and project draft restoration through navigation and refresh on desktop and mobile.
+- [ ] Replace the compact multi-activity syntax with a structured add/remove activity editor for rich project planning.
+- [ ] Add per-activity validation for required fields, date order, budget values, and hyperlinks before project submission.
+- [ ] Verify a project with multiple rich activities renders correctly in Staff and Admin dashboards without retaining fictional data.
+- [x] Investigate and resolve the reported `Failed to fetch (api.manus.im)` portal connection error, then confirm portal access is stable.
+- [x] Verify the restarted portal in the browser, capture any recurrence of the external fetch failure, and record the incident root cause and remediation.
+- [x] Capture the exact browser-side external request if `api.manus.im` fails again and identify the dependent portal flow.
+- [x] Verify a fresh authenticated browser session can open key Admin and Staff routes without a recurring fetch error.
+- [x] Confirm the persisted incident record and attach post-restart browser verification before closing the connection incident.
+- [x] Show an explicit restored-from-device message when WHS and project drafts are rehydrated from local storage.
+- [ ] Verify WHS and project draft restoration through navigation and refresh in the browser before release.
+- [x] Reduce Staff landing entry tiles into compact colour-coded headings with up to five items per desktop row and responsive wrapping.
+- [ ] Verify compact Staff entry headings retain clear labels, colour contrast, focus states, and mobile usability.
+- [x] Reorient compact Staff entry headings into a clear left-to-right row flow with inline icon, heading, supporting label, and directional cue.
+- [x] Add a clear Staff/Admin role-choice entry screen that routes users to the appropriate secure sign-in and workspace flow.
+- [x] Refine workspace navigation into compact rectangular colour-coded headings read left to right, with focused detail dashboards after selection.
+- [x] Validate role-choice entry, focused heading navigation, and responsive mobile layouts.
+- [ ] Persist the selected Staff/Admin portal choice through sign-in and route users to the permitted workspace after authentication.
+- [x] Persist the selected Staff/Admin portal choice through sign-in and route users to the permitted workspace after authentication.
+- [x] Fix the stale `complianceStatus` runtime error and revalidate dashboard reliability.
+- [x] Revalidate the Admin WHS compliance dashboard after the router restart and record that the affected procedure loads without a compliance-status runtime error.
+- [x] Persist the settled Admin compliance verification and recheck current logs for any post-restart compliance-status runtime error.
+- [ ] Verify the compact Staff heading grid, detail drill-down, and back navigation in a real Staff session on desktop and mobile.
+- [ ] Re-run browser validation through Staff and Admin role selections with their respective authenticated accounts, confirming each choice reaches the intended focused dashboard.
+- [ ] Complete the final refinement pass for all remaining focused-navigation, project-planning, and draft-persistence checklist items.
+- [ ] Complete and document all validations that do not require creating or retaining fictional operational records.
+- [ ] Correct reported layout issues across the role-entry screen, Staff workspace headings, and Admin dashboard on desktop and mobile.
+- [ ] Verify and document the corrected Staff workspace headings in an authenticated Staff session on desktop and mobile, including alignment, spacing, wrapping, focus states, and tap targets.
+- [ ] Add a prominent bright Staff WHS Forms shortcut that opens the complete-and-submit WHS forms and templates workflow.
+- [ ] Verify the Staff WHS Forms shortcut opens both the intended form-submission and WHS template destinations on desktop and mobile.
+- [ ] Validate focused navigation, back controls, and draft auto-save behaviour on desktop and mobile with documented evidence.
+- [ ] Verify WHS and project draft restoration through navigation and refresh on desktop and mobile with documented evidence.
+- [ ] Verify compact Staff entry headings retain clear labels, colour contrast, focus states, and mobile usability with documented evidence.
