@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1786584270794,
+      "tag": "0000_tiny_ben_parker",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1786584491669,
+      "tag": "0001_bent_vanisher",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1786587022965,
+      "tag": "0002_massive_edwin_jarvis",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1786588105833,
+      "tag": "0003_nice_skaar",
+      "breakpoints": true
+    }
+  ]
+}
